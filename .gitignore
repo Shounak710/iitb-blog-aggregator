@@ -60,3 +60,9 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+#Configurations
+configurations/config
+configurations/state
+configurations/state.lock
+

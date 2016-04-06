@@ -1887,7 +1887,7 @@ def main(argv):
 		return 1
 
 	if "HOME" in os.environ:
-		statedir = os.environ["HOME"] + "/.rawdog"
+		statedir = str(os.path.dirname(os.path.realpath(__file__))) + "/../../configurations"
 	else:
 		statedir = None
 	verbose = False
