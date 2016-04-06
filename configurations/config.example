@@ -87,7 +87,7 @@ datetimeformat %H:%M, %A, %d %B
 # You can define additional strings using "define" in this config file; for
 # example, if you say "define myname Adam Sampson", then "__myname__" will be
 # replaced by "Adam Sampson" in the output.
-pagetemplate /Users/ranveer/Code/Applications/iitb-blog-aggregator/rawdog/templates/pagetemplate
+pagetemplate <path to github folder>/iitb-blog-aggregator/rawdog/templates/pagetemplate
 
 # Similarly, the template used for each item shown. Use "rawdog -s item" to
 # show the template currently in use as a starting-point for customisation.
@@ -147,7 +147,7 @@ feeditemtemplate default
 # directory. Specify this as "-" to write the HTML to stdout.
 # (You will probably want to make this an absolute path, else rawdog will write
 # to a file in your ~/.rawdog directory.)
-outputfile /Users/ranveer/Code/Applications/iitb-blog-aggregator/website/index.html
+outputfile <path to github folder>/iitb-blog-aggregator/website/index.html
 #outputfile /home/you/public_html/rawdog.html
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
