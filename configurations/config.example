@@ -280,4 +280,4 @@ changeconfig true
 #	define_myclass broken
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 feed 3h http://ranveeraggarwal.com/feed.xml
-
+feed 3h https://elec-club-iitb.github.io/rss
