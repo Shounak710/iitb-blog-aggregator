@@ -1,0 +1,165 @@
+<div class="day">
+<h2>Thursday, 05 May</h2>
+<div class="time">
+<h3>22:13</h3>
+<div class="item feed-67b928d3 feed-electronicsclubiitbombay" id="item-6ce26a78">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://elec-club-iitb.github.io/blog/2016/05/working-of-a-dlp-projector/">Working of a Digital Light Processing Projector</a></span>
+<span class="itemfrom">[<a href="http://elec-club-iitb.github.io/">Electronics Club, IIT Bombay</a>]</span>
+</p>
+
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Tuesday, 03 May</h2>
+<div class="time">
+<h3>23:33</h3>
+<div class="item feed-a8374428 feed-ranveeraggarwal" id="item-1f780677">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ranveeraggarwal.com/blog/gsoc-2016">A Pythonic Summer</a></span>
+<span class="itemfrom">[<a href="http://ranveeraggarwal.com/">Ranveer Aggarwal</a>]</span>
+</p>
+<div class="itemdescription">
+<p><img class="img-responsive" src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal-800.png" /></p>
+
+<p>I have been selected for Google Summer of Code (GSoC) 2016. I&#8217;ll be working on a SciFi UI using Python-VTK under <a href="http://nipy.org/dipy/">DIPY</a> (Python Software Foundation) and I&#8217;ll be mentored by <a href="http://garyfallidis.github.io/">Eleftherios Garyfallidis</a> and <a href="http://marccote.github.io/">Marc-Alexandre C&#244;t&#233;</a>.</p>
+
+<p>DIPY is a python toolbox for analysis of MR diffusion imaging. It&#8217;s an open source research project that implements a broad range of algorithms for denoising, registration, reconstruction, tracking, clustering, visualization, and statistical analysis of MRI data.</p>
+
+<h3 id="project-description">Project Description</h3>
+
+<p>Before we go into what I&#8217;ll be doing this summer, I&#8217;d like you to watch a small (but cool) video.</p>
+
+<div class="embed-container"></div>
+<p><br /></p>
+
+<p>See those cool, futuristic interfaces? Gee, how cool would it be if those were real? Well, that&#8217;s kinda what we&#8217;ll be trying to achieve, except that the controls will be used for tractography exploration instead of space.</p>
+
+<p>The main idea is to develop new futuristic widgets directly using VTK (Visualization Toolkit) without calling any external libraries. These new widgets will be useful because we will be able to use them to navigate in tractographies and allow neurosurgeons and other neuroscientists to have a unique impression and user experience when using DIPY&#8217;s tools.</p>
+
+<p>The possible deliverable by the end of the summer would consist of field-dialogues, sliding panels with buttons and dynamic actor menus (3D menus on objects).</p>
+
+<p>The fact that the project is completely open ended and involved building something entirely new makes it that much more intriguing.</p>
+
+<h3 id="about-google-summer-of-code">About Google Summer of Code</h3>
+
+<p><a href="https://summerofcode.withgoogle.com/">Google Summer of Code (GSoC)</a> is a yearly internship program by Google to help the open source communities to reach out to student contributors. Organisations pitch projects, and when selected, pick up university students to work on these floated projects or their own ideas related to the organisation&#8217;s project(s). Last year, I completed my GSoC with KDE and it was an amazing experience. This year, I hope it&#8217;ll be a notch higher.</p>
+
+<p><img hidden="true" src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon.svg" /></p>
+</div>
+</div>
+
+<div class="item feed-a8374428 feed-ranveeraggarwal" id="item-b7a90bd3">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ranveeraggarwal.com/blog/gsoc-2015-summary">GSoC &#8217;15: A Summary</a></span>
+<span class="itemfrom">[<a href="http://ranveeraggarwal.com/">Ranveer Aggarwal</a>]</span>
+</p>
+<div class="itemdescription">
+<p>It seems like yesterday when I was an open source newbie on IRC, equipped with the knowledge of programming in C++, learnt through university courses. Little did I know that writing programs is just the prologue of the process called software engineering. Not wary of things like building, good practices and writing code that doesn&#8217;t just run on my machine, but on the machines of all those who are affected by it, I started the summer struggling through cmakes and compiler errors and understanding code that was written well, just not by me.</p>
+
+<p><img class="img-responsive" src="http://i.imgur.com/2TiPasP.jpg" /></p>
+
+<p>Step 1 was packaging software and publishing it on launchpad. My mentor, Jonathan Riddell taught me this process by going through instructions step by step, and every time, giving me knowledge about tools that I wasn&#8217;t aware about. After a lot of failed attempts in sending patches upstream, I finally managed to get PackageKit and PackageKit-Qt5 pushed on to launchpad, and they built successfully. This was done because in everything following this, these two applications would be required. And this was a success because I didn&#8217;t face any problems in the subsequent parts of the project. The packages can be found <a href="https://launchpad.net/~ranveeraggarwal/+archive/ubuntu/kpackages">here</a>. I have also described a sequence of steps as learnt in the process in an earlier blogpost.</p>
+
+<p><img class="img-responsive" src="http://i.imgur.com/SsojDvy.png" /></p>
+
+<p>The next part of my summer was spent in understanding KDE terminology, how KDE software works, how to make KDE software work (pun intended), and understanding PackageKit by pinging a lot of people on IRC. After making a compilation of KDE documentation for myself and playing around with Frameworks 5 and Qt, I started working on making an application that would install a given package via PackageKit. This involved understanding the PackageKit API and also PackageKit-Qt, a Qt Wrapper for PackageKit. Building this application took more time than was estimated, but at the end of this exercise, I was pretty much well versed on using PackageKit and building a Frameworks application. This application has been put on KDE&#8217;s git repositories and would be helpful to anyone who&#8217;d want to do this exercise in the future.</p>
+
+<p>Until this point, I was working on code written by myself. Now was the time to get into a real working application. This was Dolphin. I spent some time experimenting with Dolphin, and working out on how to make it install Samba. Later realizing I had set out on the wrong path, the real place to work it out was KDE-Network-Filesharing. Now, Network-Filesharing wasn&#8217;t on KF5 yet and this seemed like a good opportunity to learn some porting, the code for Filesharing not being too large in volume. So, after spending a lot of time on some well written blog posts by people who had done it previously and archived mailing lists (those are real life savers) and also the porting scripts, I was able to successfully port Network-Filesharing to KF5 and it&#8217;s now on the frameworks branch. Though it still needs kdelibs4 support, most of it is on KF5 and uses Qt5.</p>
+
+<p><img class="img-responsive" src="http://i.imgur.com/ZyKXzOy.png" /></p>
+
+<p>Next up was the task of using what I had learnt in the initial phases (installing software) and using it to do some actual work. And so, after getting a good hang of the Filesharing code, I managed to make it PackageKit compliant and now it installs Samba via PackageKit-Qt5.</p>
+
+<p>Next, I took up Plasma-Desktop and package installs for KCMs, specifically access and locale.</p>
+
+<p><img class="img-responsive" src="http://i.imgur.com/S5R7hH9.png" /></p>
+
+<p>First, I took up KCM access. Now KCM access has this option of enabling a screen reader. The problem? The option stays there even if the screen reader isn&#8217;t installed. So, the idea was to have that option only when a screen reader is installed, and if it isn&#8217;t, disable that option and have a button to install screen reader. Again, some Qt magic and using my past implementation of PackageKit, this was done &#8211; and now, it works as expected.</p>
+
+<p>Next up was K3b. Now, K3b needs some codecs which need an interface for installing. Again, this has been implemented using PackageKit, but the UI part is on the todo list. Thereafter I started working on locale (now known as translations). Here, instead of using PackageKit, the idea was to use libKubuntu, which is a more stable way of doing it, and had been done previously. Yet again, this has been partly implemented, and I hope to complete its implementation soon (this took some time give that this wasn&#8217;t the usual PackageKit implementation).</p>
+
+<p>And this pretty much summarizes up the summer. The most challenging part in it all? Working out how each application, programmed differently by different work. The most fun and interesting part? Same. Thanks to exposure to a variety of codebases, I can now work on most KDE applications easily and the learning curve wouldn&#8217;t be as steep.</p>
+
+<p>I am indebted to my mentor Jonathan Riddell and all the people on #kde-devel, #packagekit and #kubuntu-devel without the help of whom I would still have been stuck on compiling my first codebase. It&#8217;s an amazing community and they are really very helpful. Even the easiest of my doubts were met by great enthusiasm and not once was I not given a response for an issue I faced. This is something that is not very common on IRC. Hats off to the KDE community for that! Google Summer of Code &#8217;15 has been an amazing experience, and I will surely stick around the community as a contributor for as long as would be possible :)</p>
+</div>
+</div>
+
+<div class="item feed-a8374428 feed-ranveeraggarwal" id="item-75783d2f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ranveeraggarwal.com/blog/jee-making-a-choice">JEE: Making a Choice</a></span>
+<span class="itemfrom">[<a href="http://ranveeraggarwal.com/">Ranveer Aggarwal</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Congratulations! You&#8217;ve successfully managed to steer past lakhs of people like you, and you&#8217;ve been given the opportunity to choose your path for your life ahead &#8211; something that the lakhs of others like you wouldn&#8217;t get. If you feel that this is your hard work, you have a right to be proud of yourself. If not, and you feel this was a fluke, then just imagine! Every event that has ever taken place on this planet has led to this moment. So if you ask yourself whether you deserve to be more opportune than others, well yes you do.  <br />
+But oh wait! You&#8217;re throwing away this opportunity? You&#8217;re listening to that random uncle/aunty who claim to know everything only because their sons/daughters are making it large at TCS? Huh. What a waste! Please don&#8217;t do that.  <br />
+Now is the time to decide. This decision of yours will influence your life ahead. 20 years down the line, if you look back, everything will boil down to this tiny decision. Are you still going to let Mr. And Mrs. Sharma take this decision for you? I hope not.</p>
+
+<h3 id="making-a-decision">Making a Decision</h3>
+<p>It&#8217;s not that you cannot make a decision. It&#8217;s just that you don&#8217;t know how to. To make an informed choice, you need to first decide on the parameters. What is more important to you? Is it the so-called packages that Google/Facebook offers or is it the thrill of seeing a spacecraft designed by you land on the moon? So, parameters. I personally feel that while making this choice, you should reflect on your life till now. You must be aged somewhere near 18. In the last 18 years of your life you must have developed interests. Were you one of those people who used to play for endless hours with LEGOs and try and build something new every time? Or maybe you were one of those who, in their 5th grade made a speed boat using a soft-drink bottle and a DC motor. See, things seem clearer already.</p>
+
+<h3 id="regarding-packages">Regarding Packages</h3>
+<p>*Drumroll* the moment many of you have been waiting for.  <br />
+Yes. I won&#8217;t deny the fact that Computer Science and Engineering is one branch that can ensure that you have a decent pay right when you graduate out of college. But, 10 years hence, the salary package of a guy/girl who graduated as a Chemical Engineer (for example) would be the same as you, if not higher. However, he/she would be doing what he/she actually wanted to, unlike you, who gave a higher preference to money then. He/She will have enjoyed the last 10 years, and you&#8217;d have timed in and out with your pass card in an office you know you don&#8217;t care about. Again, I&#8217;m not saying Computer Science is bad, just that it&#8217;s not a field that everyone would enjoy.</p>
+
+<h3 id="my-experience-with-computer-science">My experience with Computer Science.</h3>
+<p>Three years ago, I made a choice. Do I regret it? Not to the slightest. I wanted to work with software before it became a fad. And so, I went for it.</p>
+
+<p>My preconception? I&#8217;ll get to make games and hack the crap out of NSA&#8217;s computers. Did I do so? No. Because no one told me. Even if it sounds so, Computer Science is not all about that. It&#8217;s more maths than electronics. It&#8217;s just raw application of your brain. Some of the greatest advancements in the field of computer science would seem very intuitive to you. &#8220;Hah! Ismein kya hai?&#8221; is what you&#8217;ll think on reading up an algorithm that took years to come up with.
+Computer Science is about understanding computers. It&#8217;s about learning to talk, learning to think, learning to write in their way and teaching them your own ways. Writing code is very similar to writing a novel. Except that instead of getting your message out to the readers, you need to make the computer understand what you think. And while humans are smart, a computer is an idiot.</p>
+
+<p>Even though it seems like the whole life of a computer scientist revolves around a single machine and that the field is very narrow, it isn&#8217;t. The number of mutually exclusive areas in computer science is huge in number, beyond the scope of this article.</p>
+
+<p>Computer Science at IIT Bombay is fun, and competitive and grueling at the same time. While you&#8217;ll be saved from the agony of using scary looking machines and turning that block of metal into a cylindrical shaft, you&#8217;ll be welcomed by long (and at times painful) assignments, 10-hour lab(s) (You&#8217;ll experience at least one of those), and the pain of having to (at times) put in some extra hours while people from (some) other departments are off for a trip to Goa. Otherwise, you&#8217;ll have more projects in your CV than many other branches, you&#8217;ll learn to know what online presence means and you can become a rock star even if you haven&#8217;t picked up a guitar all your life (you&#8217;ll get to know what this means later).</p>
+
+<p>So, make a choice that you won&#8217;t regret. The four years ahead of you are going to be nothing short of a roller coaster ride. Which ride you want to take, you decide.</p>
+</div>
+</div>
+
+</div>
+<div class="time">
+<h3>23:25</h3>
+<div class="item feed-67b928d3 feed-electronicsclubiitbombay" id="item-a8e607f0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://elec-club-iitb.github.io/blog/2016/04/getting-started-with-beaglebone-black/">Getting Started with Beaglebone Black</a></span>
+<span class="itemfrom">[<a href="http://elec-club-iitb.github.io/">Electronics Club, IIT Bombay</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-67b928d3 feed-electronicsclubiitbombay" id="item-0673313f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://elec-club-iitb.github.io/blog/2016/03/meanshift-algorithm-for-image-processing/">Meanshift Algorithm for Image Processing</a></span>
+<span class="itemfrom">[<a href="http://elec-club-iitb.github.io/">Electronics Club, IIT Bombay</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-67b928d3 feed-electronicsclubiitbombay" id="item-5fb65795">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://elec-club-iitb.github.io/blog/2016/03/glimpse-of-the-naive-bayes-classifier/">Glimpse Of The Naive Bayes' Classifier</a></span>
+<span class="itemfrom">[<a href="http://elec-club-iitb.github.io/">Electronics Club, IIT Bombay</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-67b928d3 feed-electronicsclubiitbombay" id="item-8841709c">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://elec-club-iitb.github.io/blog/2016/03/remote-controlling-a-bot-with-android/">Remote Controlling a bot with Android</a></span>
+<span class="itemfrom">[<a href="http://elec-club-iitb.github.io/">Electronics Club, IIT Bombay</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-67b928d3 feed-electronicsclubiitbombay" id="item-0eb85f28">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://elec-club-iitb.github.io/blog/2016/03/using-opencv-on-raspberry-pi/">Using OpenCV on Raspberry-Pi</a></span>
+<span class="itemfrom">[<a href="http://elec-club-iitb.github.io/">Electronics Club, IIT Bombay</a>]</span>
+</p>
+
+</div>
+
+</div>
+</div>

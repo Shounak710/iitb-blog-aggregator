@@ -1,0 +1,327 @@
+{
+    'author': u'Electronics Club, IIT Bombay (eciitb@gmail.com)',
+    'author_detail': {
+        'email': u'eciitb@gmail.com',
+        'name': u'Electronics Club, IIT Bombay',
+    },
+    'authors': [
+        {
+            'email': u'eciitb@gmail.com',
+            'name': u'Electronics Club, IIT Bombay',
+        },
+    ],
+    'guidislink': False,
+    'id': u'https://elec-club-iitb.github.io/blog/2016/05/working-of-a-dlp-projector',
+    'link': u'http://elec-club-iitb.github.io/blog/2016/05/working-of-a-dlp-projector/',
+    'links': [
+        {
+            'href': u'http://elec-club-iitb.github.io/blog/2016/05/working-of-a-dlp-projector/',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Tue, 03 May 2016 00:00:00 +0100',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=5, tm_mday=2, tm_hour=23, tm_min=0, tm_sec=0, tm_wday=0, tm_yday=123, tm_isdst=0),
+    'title': u'Working of a Digital Light Processing Projector',
+    'title_detail': {
+        'base': u'https://elec-club-iitb.github.io/rss',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'Working of a Digital Light Processing Projector',
+    },
+}
+{
+    'guidislink': False,
+    'id': u'http://ranveeraggarwal.com/blog/gsoc-2016',
+    'link': u'http://ranveeraggarwal.com/blog/gsoc-2016',
+    'links': [
+        {
+            'href': u'http://ranveeraggarwal.com/blog/gsoc-2016',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Wed, 27 Apr 2016 18:30:00 +0000',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=4, tm_mday=27, tm_hour=18, tm_min=30, tm_sec=0, tm_wday=2, tm_yday=118, tm_isdst=0),
+    'summary': u'<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>\n\n<p><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal-800.png" class="img-responsive" /></p>\n\n<p>I have been selected for Google Summer of Code (GSoC) 2016. I\u2019ll be working on a SciFi UI using Python-VTK under <a href="http://nipy.org/dipy/">DIPY</a> (Python Software Foundation) and I\u2019ll be mentored by <a href="http://garyfallidis.github.io/">Eleftherios Garyfallidis</a> and <a href="http://marccote.github.io/">Marc-Alexandre C\xf4t\xe9</a>.</p>\n\n<p>DIPY is a python toolbox for analysis of MR diffusion imaging. It\u2019s an open source research project that implements a broad range of algorithms for denoising, registration, reconstruction, tracking, clustering, visualization, and statistical analysis of MRI data.</p>\n\n<h3 id="project-description">Project Description</h3>\n\n<p>Before we go into what I\u2019ll be doing this summer, I\u2019d like you to watch a small (but cool) video.</p>\n\n<div class="embed-container"><iframe src="http://player.vimeo.com/video/103533906" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>\n<p><br /></p>\n\n<p>See those cool, futuristic interfaces? Gee, how cool would it be if those were real? Well, that\u2019s kinda what we\u2019ll be trying to achieve, except that the controls will be used for tractography exploration instead of space.</p>\n\n<p>The main idea is to develop new futuristic widgets directly using VTK (Visualization Toolkit) without calling any external libraries. These new widgets will be useful because we will be able to use them to navigate in tractographies and allow neurosurgeons and other neuroscientists to have a unique impression and user experience when using DIPY\u2019s tools.</p>\n\n<p>The possible deliverable by the end of the summer would consist of field-dialogues, sliding panels with buttons and dynamic actor menus (3D menus on objects).</p>\n\n<p>The fact that the project is completely open ended and involved building something entirely new makes it that much more intriguing.</p>\n\n<h3 id="about-google-summer-of-code">About Google Summer of Code</h3>\n\n<p><a href="https://summerofcode.withgoogle.com/">Google Summer of Code (GSoC)</a> is a yearly internship program by Google to help the open source communities to reach out to student contributors. Organisations pitch projects, and when selected, pick up university students to work on these floated projects or their own ideas related to the organisation\u2019s project(s). Last year, I completed my GSoC with KDE and it was an amazing experience. This year, I hope it\u2019ll be a notch higher.</p>\n\n<p><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon.svg" hidden="true" /></p>',
+    'summary_detail': {
+        'base': u'http://ranveeraggarwal.com/feed.xml',
+        'language': None,
+        'type': u'text/html',
+        'value': u'<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>\n\n<p><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal-800.png" class="img-responsive" /></p>\n\n<p>I have been selected for Google Summer of Code (GSoC) 2016. I\u2019ll be working on a SciFi UI using Python-VTK under <a href="http://nipy.org/dipy/">DIPY</a> (Python Software Foundation) and I\u2019ll be mentored by <a href="http://garyfallidis.github.io/">Eleftherios Garyfallidis</a> and <a href="http://marccote.github.io/">Marc-Alexandre C\xf4t\xe9</a>.</p>\n\n<p>DIPY is a python toolbox for analysis of MR diffusion imaging. It\u2019s an open source research project that implements a broad range of algorithms for denoising, registration, reconstruction, tracking, clustering, visualization, and statistical analysis of MRI data.</p>\n\n<h3 id="project-description">Project Description</h3>\n\n<p>Before we go into what I\u2019ll be doing this summer, I\u2019d like you to watch a small (but cool) video.</p>\n\n<div class="embed-container"><iframe src="http://player.vimeo.com/video/103533906" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>\n<p><br /></p>\n\n<p>See those cool, futuristic interfaces? Gee, how cool would it be if those were real? Well, that\u2019s kinda what we\u2019ll be trying to achieve, except that the controls will be used for tractography exploration instead of space.</p>\n\n<p>The main idea is to develop new futuristic widgets directly using VTK (Visualization Toolkit) without calling any external libraries. These new widgets will be useful because we will be able to use them to navigate in tractographies and allow neurosurgeons and other neuroscientists to have a unique impression and user experience when using DIPY\u2019s tools.</p>\n\n<p>The possible deliverable by the end of the summer would consist of field-dialogues, sliding panels with buttons and dynamic actor menus (3D menus on objects).</p>\n\n<p>The fact that the project is completely open ended and involved building something entirely new makes it that much more intriguing.</p>\n\n<h3 id="about-google-summer-of-code">About Google Summer of Code</h3>\n\n<p><a href="https://summerofcode.withgoogle.com/">Google Summer of Code (GSoC)</a> is a yearly internship program by Google to help the open source communities to reach out to student contributors. Organisations pitch projects, and when selected, pick up university students to work on these floated projects or their own ideas related to the organisation\u2019s project(s). Last year, I completed my GSoC with KDE and it was an amazing experience. This year, I hope it\u2019ll be a notch higher.</p>\n\n<p><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon.svg" hidden="true" /></p>',
+    },
+    'tags': [
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'gsoc',
+        },
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'python',
+        },
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'blog',
+        },
+    ],
+    'title': u'A Pythonic Summer',
+    'title_detail': {
+        'base': u'http://ranveeraggarwal.com/feed.xml',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'A Pythonic Summer',
+    },
+}
+{
+    'guidislink': False,
+    'id': u'http://ranveeraggarwal.com/blog/gsoc-2015-summary',
+    'link': u'http://ranveeraggarwal.com/blog/gsoc-2015-summary',
+    'links': [
+        {
+            'href': u'http://ranveeraggarwal.com/blog/gsoc-2015-summary',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Thu, 06 Aug 2015 06:30:00 +0000',
+    'published_parsed': time.struct_time(tm_year=2015, tm_mon=8, tm_mday=6, tm_hour=6, tm_min=30, tm_sec=0, tm_wday=3, tm_yday=218, tm_isdst=0),
+    'summary': u'<p>It seems like yesterday when I was an open source newbie on IRC, equipped with the knowledge of programming in C++, learnt through university courses. Little did I know that writing programs is just the prologue of the process called software engineering. Not wary of things like building, good practices and writing code that doesn\u2019t just run on my machine, but on the machines of all those who are affected by it, I started the summer struggling through cmakes and compiler errors and understanding code that was written well, just not by me.</p>\n\n<p><img src="http://i.imgur.com/2TiPasP.jpg" class="img-responsive" /></p>\n\n<p>Step 1 was packaging software and publishing it on launchpad. My mentor, Jonathan Riddell taught me this process by going through instructions step by step, and every time, giving me knowledge about tools that I wasn\u2019t aware about. After a lot of failed attempts in sending patches upstream, I finally managed to get PackageKit and PackageKit-Qt5 pushed on to launchpad, and they built successfully. This was done because in everything following this, these two applications would be required. And this was a success because I didn\u2019t face any problems in the subsequent parts of the project. The packages can be found <a href="https://launchpad.net/~ranveeraggarwal/+archive/ubuntu/kpackages">here</a>. I have also described a sequence of steps as learnt in the process in an earlier blogpost.</p>\n\n<p><img src="http://i.imgur.com/SsojDvy.png" class="img-responsive" /></p>\n\n<p>The next part of my summer was spent in understanding KDE terminology, how KDE software works, how to make KDE software work (pun intended), and understanding PackageKit by pinging a lot of people on IRC. After making a compilation of KDE documentation for myself and playing around with Frameworks 5 and Qt, I started working on making an application that would install a given package via PackageKit. This involved understanding the PackageKit API and also PackageKit-Qt, a Qt Wrapper for PackageKit. Building this application took more time than was estimated, but at the end of this exercise, I was pretty much well versed on using PackageKit and building a Frameworks application. This application has been put on KDE\u2019s git repositories and would be helpful to anyone who\u2019d want to do this exercise in the future.</p>\n\n<p>Until this point, I was working on code written by myself. Now was the time to get into a real working application. This was Dolphin. I spent some time experimenting with Dolphin, and working out on how to make it install Samba. Later realizing I had set out on the wrong path, the real place to work it out was KDE-Network-Filesharing. Now, Network-Filesharing wasn\u2019t on KF5 yet and this seemed like a good opportunity to learn some porting, the code for Filesharing not being too large in volume. So, after spending a lot of time on some well written blog posts by people who had done it previously and archived mailing lists (those are real life savers) and also the porting scripts, I was able to successfully port Network-Filesharing to KF5 and it\u2019s now on the frameworks branch. Though it still needs kdelibs4 support, most of it is on KF5 and uses Qt5.</p>\n\n<p><img src="http://i.imgur.com/ZyKXzOy.png" class="img-responsive" /></p>\n\n<p>Next up was the task of using what I had learnt in the initial phases (installing software) and using it to do some actual work. And so, after getting a good hang of the Filesharing code, I managed to make it PackageKit compliant and now it installs Samba via PackageKit-Qt5.</p>\n\n<p>Next, I took up Plasma-Desktop and package installs for KCMs, specifically access and locale.</p>\n\n<p><img src="http://i.imgur.com/S5R7hH9.png" class="img-responsive" /></p>\n\n<p>First, I took up KCM access. Now KCM access has this option of enabling a screen reader. The problem? The option stays there even if the screen reader isn\u2019t installed. So, the idea was to have that option only when a screen reader is installed, and if it isn\u2019t, disable that option and have a button to install screen reader. Again, some Qt magic and using my past implementation of PackageKit, this was done \u2013 and now, it works as expected.</p>\n\n<p>Next up was K3b. Now, K3b needs some codecs which need an interface for installing. Again, this has been implemented using PackageKit, but the UI part is on the todo list. Thereafter I started working on locale (now known as translations). Here, instead of using PackageKit, the idea was to use libKubuntu, which is a more stable way of doing it, and had been done previously. Yet again, this has been partly implemented, and I hope to complete its implementation soon (this took some time give that this wasn\u2019t the usual PackageKit implementation).</p>\n\n<p>And this pretty much summarizes up the summer. The most challenging part in it all? Working out how each application, programmed differently by different work. The most fun and interesting part? Same. Thanks to exposure to a variety of codebases, I can now work on most KDE applications easily and the learning curve wouldn\u2019t be as steep.</p>\n\n<p>I am indebted to my mentor Jonathan Riddell and all the people on #kde-devel, #packagekit and #kubuntu-devel without the help of whom I would still have been stuck on compiling my first codebase. It\u2019s an amazing community and they are really very helpful. Even the easiest of my doubts were met by great enthusiasm and not once was I not given a response for an issue I faced. This is something that is not very common on IRC. Hats off to the KDE community for that! Google Summer of Code \u201915 has been an amazing experience, and I will surely stick around the community as a contributor for as long as would be possible :)</p>',
+    'summary_detail': {
+        'base': u'http://ranveeraggarwal.com/feed.xml',
+        'language': None,
+        'type': u'text/html',
+        'value': u'<p>It seems like yesterday when I was an open source newbie on IRC, equipped with the knowledge of programming in C++, learnt through university courses. Little did I know that writing programs is just the prologue of the process called software engineering. Not wary of things like building, good practices and writing code that doesn\u2019t just run on my machine, but on the machines of all those who are affected by it, I started the summer struggling through cmakes and compiler errors and understanding code that was written well, just not by me.</p>\n\n<p><img src="http://i.imgur.com/2TiPasP.jpg" class="img-responsive" /></p>\n\n<p>Step 1 was packaging software and publishing it on launchpad. My mentor, Jonathan Riddell taught me this process by going through instructions step by step, and every time, giving me knowledge about tools that I wasn\u2019t aware about. After a lot of failed attempts in sending patches upstream, I finally managed to get PackageKit and PackageKit-Qt5 pushed on to launchpad, and they built successfully. This was done because in everything following this, these two applications would be required. And this was a success because I didn\u2019t face any problems in the subsequent parts of the project. The packages can be found <a href="https://launchpad.net/~ranveeraggarwal/+archive/ubuntu/kpackages">here</a>. I have also described a sequence of steps as learnt in the process in an earlier blogpost.</p>\n\n<p><img src="http://i.imgur.com/SsojDvy.png" class="img-responsive" /></p>\n\n<p>The next part of my summer was spent in understanding KDE terminology, how KDE software works, how to make KDE software work (pun intended), and understanding PackageKit by pinging a lot of people on IRC. After making a compilation of KDE documentation for myself and playing around with Frameworks 5 and Qt, I started working on making an application that would install a given package via PackageKit. This involved understanding the PackageKit API and also PackageKit-Qt, a Qt Wrapper for PackageKit. Building this application took more time than was estimated, but at the end of this exercise, I was pretty much well versed on using PackageKit and building a Frameworks application. This application has been put on KDE\u2019s git repositories and would be helpful to anyone who\u2019d want to do this exercise in the future.</p>\n\n<p>Until this point, I was working on code written by myself. Now was the time to get into a real working application. This was Dolphin. I spent some time experimenting with Dolphin, and working out on how to make it install Samba. Later realizing I had set out on the wrong path, the real place to work it out was KDE-Network-Filesharing. Now, Network-Filesharing wasn\u2019t on KF5 yet and this seemed like a good opportunity to learn some porting, the code for Filesharing not being too large in volume. So, after spending a lot of time on some well written blog posts by people who had done it previously and archived mailing lists (those are real life savers) and also the porting scripts, I was able to successfully port Network-Filesharing to KF5 and it\u2019s now on the frameworks branch. Though it still needs kdelibs4 support, most of it is on KF5 and uses Qt5.</p>\n\n<p><img src="http://i.imgur.com/ZyKXzOy.png" class="img-responsive" /></p>\n\n<p>Next up was the task of using what I had learnt in the initial phases (installing software) and using it to do some actual work. And so, after getting a good hang of the Filesharing code, I managed to make it PackageKit compliant and now it installs Samba via PackageKit-Qt5.</p>\n\n<p>Next, I took up Plasma-Desktop and package installs for KCMs, specifically access and locale.</p>\n\n<p><img src="http://i.imgur.com/S5R7hH9.png" class="img-responsive" /></p>\n\n<p>First, I took up KCM access. Now KCM access has this option of enabling a screen reader. The problem? The option stays there even if the screen reader isn\u2019t installed. So, the idea was to have that option only when a screen reader is installed, and if it isn\u2019t, disable that option and have a button to install screen reader. Again, some Qt magic and using my past implementation of PackageKit, this was done \u2013 and now, it works as expected.</p>\n\n<p>Next up was K3b. Now, K3b needs some codecs which need an interface for installing. Again, this has been implemented using PackageKit, but the UI part is on the todo list. Thereafter I started working on locale (now known as translations). Here, instead of using PackageKit, the idea was to use libKubuntu, which is a more stable way of doing it, and had been done previously. Yet again, this has been partly implemented, and I hope to complete its implementation soon (this took some time give that this wasn\u2019t the usual PackageKit implementation).</p>\n\n<p>And this pretty much summarizes up the summer. The most challenging part in it all? Working out how each application, programmed differently by different work. The most fun and interesting part? Same. Thanks to exposure to a variety of codebases, I can now work on most KDE applications easily and the learning curve wouldn\u2019t be as steep.</p>\n\n<p>I am indebted to my mentor Jonathan Riddell and all the people on #kde-devel, #packagekit and #kubuntu-devel without the help of whom I would still have been stuck on compiling my first codebase. It\u2019s an amazing community and they are really very helpful. Even the easiest of my doubts were met by great enthusiasm and not once was I not given a response for an issue I faced. This is something that is not very common on IRC. Hats off to the KDE community for that! Google Summer of Code \u201915 has been an amazing experience, and I will surely stick around the community as a contributor for as long as would be possible :)</p>',
+    },
+    'tags': [
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'gsoc',
+        },
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'kde',
+        },
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'blog',
+        },
+    ],
+    'title': u'GSoC \u201915: A Summary',
+    'title_detail': {
+        'base': u'http://ranveeraggarwal.com/feed.xml',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'GSoC \u201915: A Summary',
+    },
+}
+{
+    'guidislink': False,
+    'id': u'http://ranveeraggarwal.com/blog/jee-making-a-choice',
+    'link': u'http://ranveeraggarwal.com/blog/jee-making-a-choice',
+    'links': [
+        {
+            'href': u'http://ranveeraggarwal.com/blog/jee-making-a-choice',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Thu, 18 Jun 2015 02:26:56 +0000',
+    'published_parsed': time.struct_time(tm_year=2015, tm_mon=6, tm_mday=18, tm_hour=2, tm_min=26, tm_sec=56, tm_wday=3, tm_yday=169, tm_isdst=0),
+    'summary': u'<p>Congratulations! You\u2019ve successfully managed to steer past lakhs of people like you, and you\u2019ve been given the opportunity to choose your path for your life ahead \u2013 something that the lakhs of others like you wouldn\u2019t get. If you feel that this is your hard work, you have a right to be proud of yourself. If not, and you feel this was a fluke, then just imagine! Every event that has ever taken place on this planet has led to this moment. So if you ask yourself whether you deserve to be more opportune than others, well yes you do.  <br />\nBut oh wait! You\u2019re throwing away this opportunity? You\u2019re listening to that random uncle/aunty who claim to know everything only because their sons/daughters are making it large at TCS? Huh. What a waste! Please don\u2019t do that.  <br />\nNow is the time to decide. This decision of yours will influence your life ahead. 20 years down the line, if you look back, everything will boil down to this tiny decision. Are you still going to let Mr. And Mrs. Sharma take this decision for you? I hope not.</p>\n\n<h3 id="making-a-decision">Making a Decision</h3>\n<p>It\u2019s not that you cannot make a decision. It\u2019s just that you don\u2019t know how to. To make an informed choice, you need to first decide on the parameters. What is more important to you? Is it the so-called packages that Google/Facebook offers or is it the thrill of seeing a spacecraft designed by you land on the moon? So, parameters. I personally feel that while making this choice, you should reflect on your life till now. You must be aged somewhere near 18. In the last 18 years of your life you must have developed interests. Were you one of those people who used to play for endless hours with LEGOs and try and build something new every time? Or maybe you were one of those who, in their 5th grade made a speed boat using a soft-drink bottle and a DC motor. See, things seem clearer already.</p>\n\n<h3 id="regarding-packages">Regarding Packages</h3>\n<p>*Drumroll* the moment many of you have been waiting for.  <br />\nYes. I won\u2019t deny the fact that Computer Science and Engineering is one branch that can ensure that you have a decent pay right when you graduate out of college. But, 10 years hence, the salary package of a guy/girl who graduated as a Chemical Engineer (for example) would be the same as you, if not higher. However, he/she would be doing what he/she actually wanted to, unlike you, who gave a higher preference to money then. He/She will have enjoyed the last 10 years, and you\u2019d have timed in and out with your pass card in an office you know you don\u2019t care about. Again, I\u2019m not saying Computer Science is bad, just that it\u2019s not a field that everyone would enjoy.</p>\n\n<h3 id="my-experience-with-computer-science">My experience with Computer Science.</h3>\n<p>Three years ago, I made a choice. Do I regret it? Not to the slightest. I wanted to work with software before it became a fad. And so, I went for it.</p>\n\n<p>My preconception? I\u2019ll get to make games and hack the crap out of NSA\u2019s computers. Did I do so? No. Because no one told me. Even if it sounds so, Computer Science is not all about that. It\u2019s more maths than electronics. It\u2019s just raw application of your brain. Some of the greatest advancements in the field of computer science would seem very intuitive to you. \u201cHah! Ismein kya hai?\u201d is what you\u2019ll think on reading up an algorithm that took years to come up with.\nComputer Science is about understanding computers. It\u2019s about learning to talk, learning to think, learning to write in their way and teaching them your own ways. Writing code is very similar to writing a novel. Except that instead of getting your message out to the readers, you need to make the computer understand what you think. And while humans are smart, a computer is an idiot.</p>\n\n<p>Even though it seems like the whole life of a computer scientist revolves around a single machine and that the field is very narrow, it isn\u2019t. The number of mutually exclusive areas in computer science is huge in number, beyond the scope of this article.</p>\n\n<p>Computer Science at IIT Bombay is fun, and competitive and grueling at the same time. While you\u2019ll be saved from the agony of using scary looking machines and turning that block of metal into a cylindrical shaft, you\u2019ll be welcomed by long (and at times painful) assignments, 10-hour lab(s) (You\u2019ll experience at least one of those), and the pain of having to (at times) put in some extra hours while people from (some) other departments are off for a trip to Goa. Otherwise, you\u2019ll have more projects in your CV than many other branches, you\u2019ll learn to know what online presence means and you can become a rock star even if you haven\u2019t picked up a guitar all your life (you\u2019ll get to know what this means later).</p>\n\n<p>So, make a choice that you won\u2019t regret. The four years ahead of you are going to be nothing short of a roller coaster ride. Which ride you want to take, you decide.</p>',
+    'summary_detail': {
+        'base': u'http://ranveeraggarwal.com/feed.xml',
+        'language': None,
+        'type': u'text/html',
+        'value': u'<p>Congratulations! You\u2019ve successfully managed to steer past lakhs of people like you, and you\u2019ve been given the opportunity to choose your path for your life ahead \u2013 something that the lakhs of others like you wouldn\u2019t get. If you feel that this is your hard work, you have a right to be proud of yourself. If not, and you feel this was a fluke, then just imagine! Every event that has ever taken place on this planet has led to this moment. So if you ask yourself whether you deserve to be more opportune than others, well yes you do.  <br />\nBut oh wait! You\u2019re throwing away this opportunity? You\u2019re listening to that random uncle/aunty who claim to know everything only because their sons/daughters are making it large at TCS? Huh. What a waste! Please don\u2019t do that.  <br />\nNow is the time to decide. This decision of yours will influence your life ahead. 20 years down the line, if you look back, everything will boil down to this tiny decision. Are you still going to let Mr. And Mrs. Sharma take this decision for you? I hope not.</p>\n\n<h3 id="making-a-decision">Making a Decision</h3>\n<p>It\u2019s not that you cannot make a decision. It\u2019s just that you don\u2019t know how to. To make an informed choice, you need to first decide on the parameters. What is more important to you? Is it the so-called packages that Google/Facebook offers or is it the thrill of seeing a spacecraft designed by you land on the moon? So, parameters. I personally feel that while making this choice, you should reflect on your life till now. You must be aged somewhere near 18. In the last 18 years of your life you must have developed interests. Were you one of those people who used to play for endless hours with LEGOs and try and build something new every time? Or maybe you were one of those who, in their 5th grade made a speed boat using a soft-drink bottle and a DC motor. See, things seem clearer already.</p>\n\n<h3 id="regarding-packages">Regarding Packages</h3>\n<p>*Drumroll* the moment many of you have been waiting for.  <br />\nYes. I won\u2019t deny the fact that Computer Science and Engineering is one branch that can ensure that you have a decent pay right when you graduate out of college. But, 10 years hence, the salary package of a guy/girl who graduated as a Chemical Engineer (for example) would be the same as you, if not higher. However, he/she would be doing what he/she actually wanted to, unlike you, who gave a higher preference to money then. He/She will have enjoyed the last 10 years, and you\u2019d have timed in and out with your pass card in an office you know you don\u2019t care about. Again, I\u2019m not saying Computer Science is bad, just that it\u2019s not a field that everyone would enjoy.</p>\n\n<h3 id="my-experience-with-computer-science">My experience with Computer Science.</h3>\n<p>Three years ago, I made a choice. Do I regret it? Not to the slightest. I wanted to work with software before it became a fad. And so, I went for it.</p>\n\n<p>My preconception? I\u2019ll get to make games and hack the crap out of NSA\u2019s computers. Did I do so? No. Because no one told me. Even if it sounds so, Computer Science is not all about that. It\u2019s more maths than electronics. It\u2019s just raw application of your brain. Some of the greatest advancements in the field of computer science would seem very intuitive to you. \u201cHah! Ismein kya hai?\u201d is what you\u2019ll think on reading up an algorithm that took years to come up with.\nComputer Science is about understanding computers. It\u2019s about learning to talk, learning to think, learning to write in their way and teaching them your own ways. Writing code is very similar to writing a novel. Except that instead of getting your message out to the readers, you need to make the computer understand what you think. And while humans are smart, a computer is an idiot.</p>\n\n<p>Even though it seems like the whole life of a computer scientist revolves around a single machine and that the field is very narrow, it isn\u2019t. The number of mutually exclusive areas in computer science is huge in number, beyond the scope of this article.</p>\n\n<p>Computer Science at IIT Bombay is fun, and competitive and grueling at the same time. While you\u2019ll be saved from the agony of using scary looking machines and turning that block of metal into a cylindrical shaft, you\u2019ll be welcomed by long (and at times painful) assignments, 10-hour lab(s) (You\u2019ll experience at least one of those), and the pain of having to (at times) put in some extra hours while people from (some) other departments are off for a trip to Goa. Otherwise, you\u2019ll have more projects in your CV than many other branches, you\u2019ll learn to know what online presence means and you can become a rock star even if you haven\u2019t picked up a guitar all your life (you\u2019ll get to know what this means later).</p>\n\n<p>So, make a choice that you won\u2019t regret. The four years ahead of you are going to be nothing short of a roller coaster ride. Which ride you want to take, you decide.</p>',
+    },
+    'tags': [
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'blogpost',
+        },
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'iit',
+        },
+        {
+            'label': None,
+            'scheme': None,
+            'term': u'blog',
+        },
+    ],
+    'title': u'JEE: Making a Choice',
+    'title_detail': {
+        'base': u'http://ranveeraggarwal.com/feed.xml',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'JEE: Making a Choice',
+    },
+}
+{
+    'author': u'Electronics Club, IIT Bombay (eciitb@gmail.com)',
+    'author_detail': {
+        'email': u'eciitb@gmail.com',
+        'name': u'Electronics Club, IIT Bombay',
+    },
+    'authors': [
+        {
+            'email': u'eciitb@gmail.com',
+            'name': u'Electronics Club, IIT Bombay',
+        },
+    ],
+    'guidislink': False,
+    'id': u'https://elec-club-iitb.github.io/blog/2016/04/getting-started-with-beaglebone-black',
+    'link': u'http://elec-club-iitb.github.io/blog/2016/04/getting-started-with-beaglebone-black/',
+    'links': [
+        {
+            'href': u'http://elec-club-iitb.github.io/blog/2016/04/getting-started-with-beaglebone-black/',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Tue, 26 Apr 2016 00:00:00 +0100',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=4, tm_mday=25, tm_hour=23, tm_min=0, tm_sec=0, tm_wday=0, tm_yday=116, tm_isdst=0),
+    'title': u'Getting Started with Beaglebone Black',
+    'title_detail': {
+        'base': u'https://elec-club-iitb.github.io/rss',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'Getting Started with Beaglebone Black',
+    },
+}
+{
+    'author': u'Electronics Club, IIT Bombay (eciitb@gmail.com)',
+    'author_detail': {
+        'email': u'eciitb@gmail.com',
+        'name': u'Electronics Club, IIT Bombay',
+    },
+    'authors': [
+        {
+            'email': u'eciitb@gmail.com',
+            'name': u'Electronics Club, IIT Bombay',
+        },
+    ],
+    'guidislink': False,
+    'id': u'https://elec-club-iitb.github.io/blog/2016/03/meanshift-algorithm-for-image-processing',
+    'link': u'http://elec-club-iitb.github.io/blog/2016/03/meanshift-algorithm-for-image-processing/',
+    'links': [
+        {
+            'href': u'http://elec-club-iitb.github.io/blog/2016/03/meanshift-algorithm-for-image-processing/',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Thu, 24 Mar 2016 00:00:00 +0100',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=3, tm_mday=23, tm_hour=23, tm_min=0, tm_sec=0, tm_wday=2, tm_yday=83, tm_isdst=0),
+    'title': u'Meanshift Algorithm for Image Processing',
+    'title_detail': {
+        'base': u'https://elec-club-iitb.github.io/rss',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'Meanshift Algorithm for Image Processing',
+    },
+}
+{
+    'author': u'Electronics Club, IIT Bombay (eciitb@gmail.com)',
+    'author_detail': {
+        'email': u'eciitb@gmail.com',
+        'name': u'Electronics Club, IIT Bombay',
+    },
+    'authors': [
+        {
+            'email': u'eciitb@gmail.com',
+            'name': u'Electronics Club, IIT Bombay',
+        },
+    ],
+    'guidislink': False,
+    'id': u'https://elec-club-iitb.github.io/blog/2016/03/glimpse-of-the-naive-bayes-classifier',
+    'link': u'http://elec-club-iitb.github.io/blog/2016/03/glimpse-of-the-naive-bayes-classifier/',
+    'links': [
+        {
+            'href': u'http://elec-club-iitb.github.io/blog/2016/03/glimpse-of-the-naive-bayes-classifier/',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Tue, 15 Mar 2016 00:00:00 +0100',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=3, tm_mday=14, tm_hour=23, tm_min=0, tm_sec=0, tm_wday=0, tm_yday=74, tm_isdst=0),
+    'title': u"Glimpse Of The Naive Bayes' Classifier",
+    'title_detail': {
+        'base': u'https://elec-club-iitb.github.io/rss',
+        'language': None,
+        'type': u'text/plain',
+        'value': u"Glimpse Of The Naive Bayes' Classifier",
+    },
+}
+{
+    'author': u'Electronics Club, IIT Bombay (eciitb@gmail.com)',
+    'author_detail': {
+        'email': u'eciitb@gmail.com',
+        'name': u'Electronics Club, IIT Bombay',
+    },
+    'authors': [
+        {
+            'email': u'eciitb@gmail.com',
+            'name': u'Electronics Club, IIT Bombay',
+        },
+    ],
+    'guidislink': False,
+    'id': u'https://elec-club-iitb.github.io/blog/2016/03/remote-controlling-a-bot-with-android',
+    'link': u'http://elec-club-iitb.github.io/blog/2016/03/remote-controlling-a-bot-with-android/',
+    'links': [
+        {
+            'href': u'http://elec-club-iitb.github.io/blog/2016/03/remote-controlling-a-bot-with-android/',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Sat, 12 Mar 2016 00:00:00 +0100',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=3, tm_mday=11, tm_hour=23, tm_min=0, tm_sec=0, tm_wday=4, tm_yday=71, tm_isdst=0),
+    'title': u'Remote Controlling a bot with Android',
+    'title_detail': {
+        'base': u'https://elec-club-iitb.github.io/rss',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'Remote Controlling a bot with Android',
+    },
+}
+{
+    'author': u'Electronics Club, IIT Bombay (eciitb@gmail.com)',
+    'author_detail': {
+        'email': u'eciitb@gmail.com',
+        'name': u'Electronics Club, IIT Bombay',
+    },
+    'authors': [
+        {
+            'email': u'eciitb@gmail.com',
+            'name': u'Electronics Club, IIT Bombay',
+        },
+    ],
+    'guidislink': False,
+    'id': u'https://elec-club-iitb.github.io/blog/2016/03/using-opencv-on-raspberry-pi',
+    'link': u'http://elec-club-iitb.github.io/blog/2016/03/using-opencv-on-raspberry-pi/',
+    'links': [
+        {
+            'href': u'http://elec-club-iitb.github.io/blog/2016/03/using-opencv-on-raspberry-pi/',
+            'rel': u'alternate',
+            'type': u'text/html',
+        },
+    ],
+    'published': u'Mon, 07 Mar 2016 00:00:00 +0100',
+    'published_parsed': time.struct_time(tm_year=2016, tm_mon=3, tm_mday=6, tm_hour=23, tm_min=0, tm_sec=0, tm_wday=6, tm_yday=66, tm_isdst=0),
+    'title': u'Using OpenCV on Raspberry-Pi',
+    'title_detail': {
+        'base': u'https://elec-club-iitb.github.io/rss',
+        'language': None,
+        'type': u'text/plain',
+        'value': u'Using OpenCV on Raspberry-Pi',
+    },
+}
