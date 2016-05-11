@@ -1,3 +1,5 @@
+#sets up the database for use
+#to change configuration, go to config_db.py in <home>/rawdog/config_db.py
 from config_db import *
 import psycopg2
 

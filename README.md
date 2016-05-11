@@ -23,6 +23,16 @@ Follow these steps. Here, `<home>` refers to the `iitb-blog-aggregator` director
 
 * If it doesn't work, post on the gitter chat.
 
+### Installation for Database
+
+* Install psycopg2
+
+		pip install psycopg2
+
+* Go to `<home>/rawdog/` and execute
+
+		python setup_db.py
+
 ### Running
 
 If the above works, run the following
@@ -31,3 +41,5 @@ If the above works, run the following
 	./rawdog -w
 
 Your final generated website will be inside the `<home>/website` folder.
+
+

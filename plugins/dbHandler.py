@@ -1,3 +1,5 @@
+#uses psycopg2 library to add and update new blog entries
+#to change configuration, go to config_db.py in <home>/rawdog/config_db.py
 from rawdoglib.plugins import attach_hook
 from config_db import *
 import psycopg2
