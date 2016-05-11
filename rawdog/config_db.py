@@ -3,3 +3,6 @@ DB_PASS = 'root'
 DB_HOST = '127.0.0.1'
 DB_PORT = '5432'
 DB_ARTICLE = 'articles'
+
+DB_TABLE  = 'items'
+DB_COLUMNS = ['LINK', 'FEED', 'TITLE', 'SUMMARY', 'AUTHOR_EMAIL', 'AUTHOR_NAME', 'HASH']
