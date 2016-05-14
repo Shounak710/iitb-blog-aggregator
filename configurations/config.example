@@ -14,7 +14,7 @@
 # option specifies the directories to search for plugins to load. If a
 # directory does not exist or cannot be read, it will be ignored.  This
 # option must appear before any options that are implemented by plugins.
-plugindirs plugins
+plugindirs <path to github folder>/iitb-blog-aggregator/plugins
 
 # Whether to split rawdog's state amongst multiple files.
 # If this is turned on, rawdog will use significantly less memory, but

@@ -65,4 +65,5 @@ target/
 configurations/config
 configurations/state
 configurations/state.lock
+configurations/db_config.py
 
