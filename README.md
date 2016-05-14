@@ -12,16 +12,14 @@ Follow these steps. Here, `<home>` refers to the `iitb-blog-aggregator` director
 
 		pip install feedparser
 
-* Got to `<home>/configurations/` and do
+* Go to `<home>/configurations/` and do
 
 		cp config.example config
 
-* In the `config` file, add path to your `iitb-blog-aggregator` directory at two places (replace `<path to github folder>` aptly by <kbd>Ctrl + F</kbd>-ing)
-* Go to `<home>/rawdog` and run
+* In the `config` file, add path to your `iitb-blog-aggregator` directory at two places (replace `<path to github folder>` aptly by <kbd>Ctrl + F</kbd>-ing).
 
-		./rawdog
+* Also in the `config` file, add the path to `iitb-blog-aggregator/plugins` at `<path to plugin folder>`.
 
-* If it doesn't work, post on the gitter chat.
 
 ### Installation for Database
 
@@ -29,11 +27,20 @@ Follow these steps. Here, `<home>` refers to the `iitb-blog-aggregator` director
 
 		pip install psycopg2
 
+* Open `<home>/rawdog/config_db.py`
+
 * Go to `<home>/rawdog/` and execute
 
 		python setup_db.py
 
 ### Running
+
+
+* Go to `<home>/rawdog` and run
+
+		./rawdog
+
+* If it doesn't work, post on the gitter chat.
 
 If the above works, run the following
 
