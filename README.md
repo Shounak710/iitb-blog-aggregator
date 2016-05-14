@@ -16,18 +16,26 @@ Follow these steps. Here, `<home>` refers to the `iitb-blog-aggregator` director
 
 		cp config.example config
 
-* In the `config` file, add path to your `iitb-blog-aggregator` directory at two places (replace `<path to github folder>` aptly by <kbd>Ctrl + F</kbd>-ing).
+* In the `config` file, add path to your 
 
-* Also in the `config` file, add the path to `iitb-blog-aggregator/plugins` at `<path to plugin folder>`.
+	* `iitb-blog-aggregator` directory at two places (replace `<path to github folder>` aptly by <kbd>Ctrl + F</kbd>-ing).
+
+	* `iitb-blog-aggregator/plugins` at `<path to plugin folder>`.
 
 
 ### Installation for Database
+
+* Install PostgreSQL 9.5 if you haven't installed before. (Get it from [here](http://www.postgresql.org/download/))
 
 * Install psycopg2
 
 		pip install psycopg2
 
-* Open `<home>/rawdog/config_db.py`
+* Open `<home>/rawdog/config_db.py` and set 
+
+	* `DB_USER` and `DB_PASS` to the username and password of the role respectively. (Make sure that the role had CREATEDB permission)
+
+	* `DB_NAME` to the name of the database for connecting the first time.
 
 * Go to `<home>/rawdog/` and execute
 
@@ -40,13 +48,10 @@ Follow these steps. Here, `<home>` refers to the `iitb-blog-aggregator` director
 
 		./rawdog
 
-* If it doesn't work, post on the gitter chat.
-
-If the above works, run the following
+* If the above works, run the following
 
 	./rawdog -u
 	./rawdog -w
 
-Your final generated website will be inside the `<home>/website` folder.
-
+Your feed would be added/updated in the database. If it doesn't work, post on the gitter chat.
 

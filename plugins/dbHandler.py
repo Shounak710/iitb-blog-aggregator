@@ -35,7 +35,7 @@ def dbHandler(rawdog, config, articles, article_dates):
 		if 'title' in article.entry_info:
 			title = article.entry_info['title']
 
-		# The values to add in the database.
+		# The values to be added in the database.
 		values.extend([
 						link,
 						article.feed,
@@ -58,4 +58,5 @@ def dbHandler(rawdog, config, articles, article_dates):
 	con.close()
 	return False
 
+#attaches the function to handle the articles parsed by rawdog
 attach_hook("output_write_files", dbHandler)

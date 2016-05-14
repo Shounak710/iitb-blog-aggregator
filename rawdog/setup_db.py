@@ -24,6 +24,7 @@ except psycopg2.ProgrammingError, error:
 	print error
 	forward = False
 
+# Executes if database has been created.
 if forward :
 	try :
 		cur.execute("GRANT ALL PRIVILEGES ON DATABASE " + DB_ARTICLE + " TO " + DB_USER)
