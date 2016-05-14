@@ -1,5 +1,5 @@
-#sets up the database for use
-#to change configuration, go to config_db.py in <home>/rawdog/config_db.py
+# sets up the database for use
+# to change configuration, go to config_db.py in <home>/rawdog/config_db.py
 from config_db import *
 import psycopg2
 
@@ -11,10 +11,10 @@ forward = True
 try :
 	cur.execute("CREATE DATABASE " + DB_ARTICLE)
 	con.commit()
-	print "Database succefully created"
+	print "Database successfully created"
 except psycopg2.ProgrammingError :
 	con.rollback()
-	print "Databse already exists"
+	print "Database already exists"
 	forward = False
 
 if forward :
@@ -33,7 +33,7 @@ if forward :
 	try :
 		cur.execute("CREATE TABLE " + DB_TABLE + "(ID serial PRIMARY KEY, " + ', '.join([DB_COLUMNS[i] + ' ' + DB_COLUMNS_MODIFIERS[i] for i in range(len(DB_COLUMNS))]) + ")")
 		con.commit()
-		print "Table succefully created"
+		print "Table successfully created"
 	except psycopg2.ProgrammingError:
 		con.rollback()
 		print "Failed to create table"
