@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'rest_framework',
     'simple_history',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -83,8 +84,8 @@ DATABASES = {
         'NAME': 'articles',
         'USER': 'admin',
         'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 

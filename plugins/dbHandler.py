@@ -53,7 +53,7 @@ def dbHandler(rawdog, config, articles, article_dates):
 		sqlQuery += "(" + ', '.join(['%s' for i in range(len(DB_COLUMNS))]) + "),"
 
 	sqlQuery = sqlQuery[:-1] + " ON CONFLICT (LINK) DO UPDATE SET " + ', '.join([column + " = EXCLUDED." + column for column in DB_COLUMNS[1:]]) + ";"
-	print sqlQuery
+	#print sqlQuery
 	try:
 		cur.execute(sqlQuery, values)
 		con.commit()
