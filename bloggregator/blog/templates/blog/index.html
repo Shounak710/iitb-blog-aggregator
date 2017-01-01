@@ -5,7 +5,10 @@
 <article>
     <header>
         <h2>{{ item.title }}</h2>
-        <p>{{ item.summary|safe|truncatewords:30 }}</p>
+        <div class="byline">
+            <address class="author">By {{ item.author_name }}</address>
+        </div>
+        <p>{{ item.summary|safe|truncatewords:30 }} Read more</p>
     </header>
     <hr />
 

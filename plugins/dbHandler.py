@@ -2,7 +2,7 @@
 # To change configuration, go to config_db.py in <home>/rawdog/config_db.py
 import sys
 import os
-
+from pprint import pprint
 sys.path.append(os.getcwd() + "/../configurations")
 
 from rawdoglib.plugins import attach_hook
@@ -32,7 +32,7 @@ def dbHandler(rawdog, config, articles, article_dates):
 
 		if 'author_detail' in article.entry_info:
 			if 'email' in article.entry_info['author_detail']:
-				authorName = article.entry_info['author_detail']['email']
+				authorEmail = article.entry_info['author_detail']['email']
 
 		if 'summary' in article.entry_info:
 			summary = article.entry_info['summary']
