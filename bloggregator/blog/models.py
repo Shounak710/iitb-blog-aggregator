@@ -31,6 +31,6 @@ class Items(models.Model):
     def get_summary(self):
         rsummary = self.summary
         if len(self.summary) > 30:
-            rsummary = rsummary[:100]
+            rsummary = rsummary[:150]
         rsummary = rsummary + '...'
         return rsummary
