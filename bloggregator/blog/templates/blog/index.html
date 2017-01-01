@@ -6,9 +6,9 @@
     <header>
         <h2>{{ item.title }}</h2>
         <div class="byline">
-            <address class="author">By {{ item.author_name }}</address>
+            <address class="author">{{ item.get_author }}</address>
         </div>
-        <p>{{ item.summary|safe|truncatewords:30 }} Read more</p>
+        <p>{{ item.get_summary }} Read more</p>
     </header>
     <hr />
 

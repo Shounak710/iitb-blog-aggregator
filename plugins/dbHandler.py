@@ -8,7 +8,13 @@ sys.path.append(os.getcwd() + "/../configurations")
 from rawdoglib.plugins import attach_hook
 from db_config import *
 import psycopg2
+import re
 
+
+def cleanhtml(raw_html):
+  cleanr = re.compile('<.*?>')
+  cleantext = re.sub(cleanr, '', raw_html)
+  return cleantext
 
 def dbHandler(rawdog, config, articles, article_dates):
 	con = psycopg2.connect(
@@ -35,7 +41,7 @@ def dbHandler(rawdog, config, articles, article_dates):
 				authorEmail = article.entry_info['author_detail']['email']
 
 		if 'summary' in article.entry_info:
-			summary = article.entry_info['summary']
+			summary = cleanhtml(article.entry_info['summary'])
 
 		if 'title' in article.entry_info:
 			title = article.entry_info['title']

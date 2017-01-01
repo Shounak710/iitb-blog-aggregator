@@ -21,3 +21,16 @@ class Items(models.Model):
 
     class Meta:
         db_table = 'items'
+
+    def get_author(self):
+        author = ""
+        if self.author_name:
+            author = "By " + self.author_name
+        return author
+
+    def get_summary(self):
+        rsummary = self.summary
+        if len(self.summary) > 30:
+            rsummary = rsummary[:100]
+        rsummary = rsummary + '...'
+        return rsummary

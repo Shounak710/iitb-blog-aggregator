@@ -7,5 +7,5 @@ from .models import Items
 	#template_name = 'home/index.html'
 
 def index(request):
-	items = Items.objects.order_by('id')[:5]
+	items = Items.objects.order_by('-id')[:5]
 	return render(request, 'blog/index.html', {'items': items})
